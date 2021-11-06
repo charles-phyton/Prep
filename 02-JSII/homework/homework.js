@@ -107,6 +107,12 @@ function todosIguales(arreglo) {
     // Escriba la función todosIguales, si todos los elementos de un arreglo son iguales
     // retornar true, caso contrario retornar false.
     // Tu código:
+    for (let i = 0; i < arreglo.length; i++) {
+        if (arreglo[i] !== pivot){
+            return false;
+        }
+                  
+    }
 
 }
 
