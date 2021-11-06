@@ -1,0 +1,41 @@
+Grabaciones Henry
+
+18hs Lunes 25 Octubre: HTML y CSS - https://vimeo.com/639113773/05d8fc7b75
+ 19hs Martes 26 Octubre: GIT - https://vimeo.com/639542971/dc6796516c
+ 18hs Miércoles 27 Octubre: JS-I - https://vimeo.com/641112095/0d58cc247c
+ 19hs Jueves 28 Octubre: JS-II - https://vimeo.com/640390293/b9c1899d54
+ 17hs Viernes 29 Octubre: JS-III - https://vimeo.com/641138603/6d63847d15
+ 18hs Lunes 1 Noviembre : JS-IV - https://vimeo.com/641954576/8ffa5fd4f7
+ 19hs Martes 2 Noviembre : JS-V - https://vimeo.com/641950398/9136d3cf14
+ 18hs Miércoles 3 Noviembre : JS-VI - https://vimeo.com/642375360/6dc5cd4feb
+
+********************************************************************************
+18hs Lunes 11 Octubre: HTML y CSS - https://vimeo.com/630368288/b8160ec527
+ 19hs Martes  12 Octubre: GIT - https://vimeo.com/631107464/4a60027df5
+ 18hs Miércoles 13 Octubre: JS-I - https://vimeo.com/632119379/50216ff117
+ 19hs Jueves 14 Octubre: JS-II - https://vimeo.com/632967417/472a9cebab
+ 17hs Viernes  15 Octubre: JS-III - https://vimeo.com/636275789/d17f4fcb56
+ 18hs Lunes  18 Octubre: JS-IV - https://vimeo.com/636213361/6cbb46da8c
+ 19hs Martes  19 Octubre: JS-V - https://vimeo.com/637096557/50f485ee43
+ 18hs Miércoles  20 Octubre: JS-VI - https://vimeo.com/637478957/86d25cee15
+ 19hs Jueves  21 Octubre: JS-Extras y Repaso - https://vimeo.com/638142598/ee2466447e
+Todos los horarios son de Argentina ( GMT -3 )
+
+*********************************************************************************
+https://github.com/atralice/Curso.Prep.Henry/
+Otro repositorio
+*****************************************************************************
+1- git init
+2- git add .
+3- git reset .
+4- git commit
+5- git checkout -- . // reconstrulle archivos 
+6- git log // mustra listados de los commit
+7- git commit --anend
+8- git checkout -b rama-heroes
+9- git checkout master // nos devuelve a la rama master
+10- git branch -d rama-heroes //Borra la rama que creamos 
+11 git push //subir archivos al repositorio 
+12- git commit -am "mensaje"
+********************************************************
+
