@@ -94,8 +94,15 @@ function numberOfCharacters(string) {
   let repeticion = {};
 
   for (let i = 0; i < array.length; i++) {
-    if (!repeticion[string[i]] = repeticion[string[i]] + 1;
+    if (!repeticion[string[i]]){
 
+      repeticion[string[i]] = 1;
+    }else{
+      repeticion[string[i]] = repeticion[string[i]] + 1;
+
+    }
+
+    return repeticion;
     
   }
   return repeticion;
@@ -107,7 +114,13 @@ function capicua(numero){
   // La misma debe retornar: "Es capicua" si el número se lee igual de 
   // izquierda a derecha que de derecha a izquierda. Caso contrario retorna "No es capicua"
   // Tu código:
+  let numeroStr = numero.toString();
+  let numeroStrInvertido = numero.split('').reverse().join('');
+  if (numeroStr === numeroStrInvertido) {
+    return 'Es capicua';
 
+} else {
+  return 'No es Capicua';
 }
 
 function deleteAbc(cadena){
@@ -115,15 +128,27 @@ function deleteAbc(cadena){
   // y devuelva la versión modificada o la misma cadena, en caso de no contener dichas letras.
   // Tu código:
 
+  let array  =  cadena . dividir ( '' ) ;
+  let  arrayFiltrado  =  matriz . filter ( letra  =>  letra !==  'a'  &&  letra  !==  'b'  &&  letra  !==  'c' ) ;
+  return  arrayFiltrado . unirse ( '' ) ;
+
 }
 
 function buscoInterseccion(arreglo1, arreglo2){
+
   // Existen dos arrays, cada uno con cierta cantidad de números. A partir de ello, escribir una función que permita 
   // retornar un nuevo array con la intersección de ambos elementos. (Ej: [4,2,3] unión [1,3,4] = [3,4].
   // Si no tienen elementos en común, retornar un arreglo vacío.
   // Aclaración: los arreglos no necesariamente tienen la misma longitud
   // Tu código:
-
+ let interseccion = [];
+  for (let i = 0; i < arreglo1.length; i++) {
+    for (let j = 0; j < arreglo2.length; j++) {
+      if(arreglo1[i] === arreglo2[j]) interseccion.push(arreglo1[i]);
+    }
+  }
+  return interseccion;
+}
 }
 
 // No modificar nada debajo de esta línea

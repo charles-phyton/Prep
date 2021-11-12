@@ -14,7 +14,7 @@
     "test10": "jest JSX.test.js  --useStderr --json --outputFile=./10-JS-Extra-Homeworks/homework/tests/result.json"
   },
   "devDependencies": {
-    "jest": "^27.1.0"
+    "jest": "^27.3.1"
   },
   "author": "Henry",
   "license": "ISC",
